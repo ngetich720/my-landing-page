@@ -1,0 +1,79 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and text colors */
+body {
+    background-color: #f4f4f4; /* Choose your preferred background color */
+    font-family: Arial, sans-serif;
+    color: #333; /* Choose your preferred text color */
+}
+
+/* Style the header section */
+header {
+    background-color: #007bff; /* Choose your preferred header background color */
+    color: #fff; /* Choose your preferred header text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the project section */
+#project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#project h2 {
+    color: #007bff; /* Choose your preferred project title color */
+}
+
+#project a {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#project a:hover {
+    background-color: #0056b3; /* Choose a slightly darker color for hover effect */
+}
+
+/* Style the about section */
+#about {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the GitHub section */
+#github {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#github a {
+    background-color: #333; /* Choose your preferred GitHub link background color */
+    color: #fff; /* Choose your preferred GitHub link text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#github a:hover {
+    background-color: #555; /* Choose a slightly darker color for hover effect */
+}
